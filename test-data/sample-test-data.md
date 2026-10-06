@@ -57,3 +57,32 @@ TransactionType → Standard
 Quantity       → 10
 ReferenceType   → Portfolio
 ExpectedStatus  → Completed
+
+These values are examples only and do not represent real application data.
+Positive and Negative Data
+
+Positive Data
+Used to validate successful business flows.
+Examples:
+- Valid user
+- Valid transaction type
+- Valid mandatory fields
+- Valid reference number
+
+Negative Data
+Used to validate application validations and error handling.
+Examples:
+- Missing mandatory field
+- Invalid reference number
+- Invalid transaction type
+- Incorrect input format
+- Unauthorized transaction
+
+Benefits
+Effective test data management helps with:
+- Better test reusability
+- Faster regression execution
+- Reduced maintenance effort
+- Consistent test execution
+- Improved automation stability
+- Easier troubleshooting
